@@ -14,7 +14,7 @@ stages{
             steps{
                 script{
                     clone("https://github.com/aneeshprasadrv/django-notes-app.git", "main")
-                    echo 'code cloned successful'
+                    echo 'code cloned successfully done'
                 }
             }
         }
