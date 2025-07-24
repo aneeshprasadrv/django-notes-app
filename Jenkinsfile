@@ -3,7 +3,7 @@ pipeline {
     agent {label 'vinod'}
     
 stages{
-        stage("hello"){
+        stage("helloman"){
             steps{
                 script{
                     hello()
